@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+#smile{
+  
+  font-size: 34px;
+  fill: white;
+}
+
+#country_flag{
+
+  border: 2px solid #555;
+  max-width: 35%;
+  max-height: 100%;
+
+  border-radius: 15px;
+
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+
+}
+
+#flag_div{
+
+  height: 10cm;
+  object-fit: contain;
+  transition: width 2s linear 1s;
+}
+
+#information_area{
+
+  font-size: 22px;
+  text-align: left;
+  line-height: 50%;
+  text-indent: 45%;
+}
+
+#congrats_paragraph{
+
+  font-size: 30px;
+  text-align: center;
+  text-indent: 0%;
+}
+
+#country_paragraph{
+
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  text-indent: 0%;
+}
